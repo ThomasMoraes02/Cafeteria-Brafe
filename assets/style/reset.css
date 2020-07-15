@@ -1,0 +1,21 @@
+body {
+    font-size: Georgia, serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2{
+    color: #333333;
+    font-size: 36px;
+}

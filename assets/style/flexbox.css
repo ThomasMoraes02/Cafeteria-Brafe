@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flexbox{
+    flex-direction: column-reverse;
+    display: flex;
+    background: rgba(0, 0, 0, .4);
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+        
+}
+
+.item{
+    background: tomato;
+    border: 1px solid;
+    min-height: 50px;
+    flex:0 1 50px;
+}
+
+.item-2{
+    flex-shrink: 1 !important;
+    background: tomato ;
+}
+
+li{
+    display: inline;
+}
+
+.end{
+   align-self: flex-end;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.center{
+    align-self: center;
+}
+
+.order{
+    order: 1;
+}
